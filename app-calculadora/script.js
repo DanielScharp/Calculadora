@@ -17,7 +17,6 @@ function calcular(tipo, valor) {
   }
   function delNumber() {
     var num = document.getElementById('resultado').value;
-    num.toString(num)
     num = num.slice(0, -1);
     document.getElementById('resultado').value = num
 }
